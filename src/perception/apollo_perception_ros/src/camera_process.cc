@@ -21,7 +21,8 @@ namespace apollo_perception_standalone {
 
 using Eigen::Affine3d;
 using Eigen::Matrix4d;
-
+static int c=0;
+static int d=1;
 bool CameraProcess::Init(int cam_idx, std::string &file_path_config, bool log_cam) {
   
   log_cam_ = log_cam;

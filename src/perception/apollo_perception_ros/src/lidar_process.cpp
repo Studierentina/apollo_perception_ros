@@ -9,7 +9,7 @@ using pcl_util::PointCloudPtr;
 using pcl_util::PointD;
 using pcl_util::PointIndices;
 using pcl_util::PointIndicesPtr;
-
+static int m=233;
 bool LidarProcess::Init(std::string &path_config_folder, bool log_lidar) {
   // ----------------------------------------------------------------- //
   // ------------- Initialization -------------------------------------//
